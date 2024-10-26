@@ -1,0 +1,307 @@
+<html>
+    <head>
+        <title> Tablas en HTML</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        <style type="text/css">
+            header, nav, main, footer {
+                width: 100%;
+            }
+            section {
+                width: 70%;
+                height: auto;
+                padding: 30px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Tablas en HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Formatos</a></li>
+                <li><a href="listas.html"> Listas</a></li>
+                <li><a href="enlaces.html"> Enlaces</a></li>
+                <li><a href="tablas.html"> Tablas</a></li>
+                <li><a href="imagenes.html"> Imagenes</a></li>
+                <li><a href="audio.html"> Audio</a></li>
+                <li><a href="videos.html"}> Video</a></li>
+                <li><a href="formularios.html"> Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+            <h2>Recomendaciones musicales</h2>
+                <p>Aquí te comparto algunas recomendaciones de álbumes y artistas que me encantan. Desde el pop hasta el reggaetón, ¡espero que te gusten tanto como a mí! Si te gusta explorar géneros nuevos, estos álbumes son un excelente punto de partida.</p>
+                <table border="1" id="tabla1">
+                 <thead>
+                     <tr>
+                           <th>Artista</th>
+                           <th>Álbum</th>
+                           <th>Género</th>
+                          <th>Año</th>
+                          <th>Recomendado para</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                       <tr>
+                         <td>BTS</td>
+                         <td>Map of the Soul: 7</td>
+                         <td>K-pop</td>
+                         <td>2020</td>
+                         <td>Fans del pop y música energética</td>
+                      </tr>
+                      <tr>
+                          <td>Bad Bunny</td>
+                          <td>Un Verano Sin Ti</td>
+                          <td>Reggaetón</td>
+                          <td>2022</td>
+                          <td>Para un ambiente veraniego y relajado</td>
+                      </tr>
+                      <tr>
+                          <td>Billie Eilish</td>
+                          <td>Happier Than Ever</td>
+                          <td>Pop alternativo</td>
+                          <td>2021</td>
+                           <td>Para quien busca algo más introspectivo</td>
+                     </tr>
+                     <tr>
+                         <td>Taylor Swift</td>
+                         <td>Midnights</td>
+                         <td>Pop</td>
+                         <td>2023</td>
+                         <td>Amantes de letras emocionales y melodías suaves</td>
+                     </tr>
+                     <tr>
+                          <td>Rosalía</td>
+                          <td>El Mal Querer</td>
+                          <td>Flamenco-pop</td>
+                          <td>2018</td>
+                          <td>Quienes buscan algo diferente y experimental</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </section>
+                <section>
+                <h2>Tabla modificada por género y con uso de colspan</h2>
+                <p>En esta tabla te muestro una lista de álbumes, pero esta vez agrupados por géneros musicales y con detalles adicionales. Ideal para quienes desean explorar géneros específicos o buscan recomendaciones personalizadas.</p>
+                <table border="1" class="tabla2">
+                 <thead>
+                     <tr>
+                         <th>Género</th>
+                         <th>Artista</th>
+                         <th>Álbum</th>
+                         <th colspan="2">Año de lanzamiento</th>
+                         <th>Recomendado para</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>K-pop</td>
+                            <td>BTS</td>
+                            <td>Map of the Soul: 7</td>
+                            <td>2020</td>
+                            <td></td>
+                         <td>Fans de coreografías y música vibrante</td>
+                     </tr>
+                     <tr>
+                         <td>Reggaetón</td>
+                          <td>Bad Bunny</td>
+                         <td>Un Verano Sin Ti</td>
+                         <td>2022</td>
+                         <td></td>
+                         <td>Quienes disfrutan del flow latino y relajado</td>
+                     </tr>
+                     <tr>
+                            <td>Pop alternativo</td>
+                         <td>Billie Eilish</td>
+                         <td>Happier Than Ever</td>
+                         <td>2021</td>
+                         <td></td>
+                         <td>Quienes buscan canciones más profundas</td>
+                     </tr>
+                        <tr>
+                         <td>Pop</td>
+                         <td>Taylor Swift</td>
+                         <td>Midnights</td>
+                         <td>2023</td>
+                         <td></td>
+                         <td>Amantes de letras emocionales y ritmos suaves</td>
+                        </tr>
+                     <tr>
+                            <td>Flamenco-pop</td>
+                            <td>Rosalía</td>
+                            <td>El Mal Querer</td>
+                            <td>2018</td>
+                            <td></td>
+                            <td>Curiosos por lo experimental y cultural</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+            <h2>Recomendacion de peliculas</h2>
+            <p>Las películas son una de las mejores formas de relajarse después de un largo día de estudios. Aquí te dejo una lista de películas recomendadas que no te puedes perder, desde clásicos hasta lo más reciente en cine. Perfectas para disfrutar con amigos o en un momento solo para ti.</p>
+            <table border="1" id="tabla3">
+                   <thead>
+                     <tr>
+                        <th>Título</th>
+                         <th>Género</th>
+                         <th>Duración</th>
+                        <th>Año</th>
+                           <th>Recomendación</th>
+                    </tr>
+                 </thead>
+                   <tbody>
+                      <tr>
+                          <td>El club de la pelea</td>
+                           <td>Drama</td>
+                           <td>139 minutos</td>
+                           <td>1999</td>
+                           <td>Alta</td>
+                       </tr>
+                       <tr>
+                           <td>El origen</td>
+                           <td>Ciencia Ficción</td>
+                           <td>148 minutos</td>
+                           <td>2010</td>
+                           <td>Alta</td>
+                       </tr>
+                       <tr>
+                           <td>Parasite</td>
+                           <td>Suspenso</td>
+                        <td>132 minutos</td>
+                         <td>2019</td>
+                        <td>Alta</td>
+                    </tr>
+                    <tr>
+                        <td>Spider-Man: Into the Spider-Verse</td>
+                        <td>Animación</td>
+                        <td>117 minutos</td>
+                        <td>2018</td>
+                        <td>Alta</td>
+                    </tr>
+                       <tr>
+                        <td>La La Land</td>
+                           <td>Romance/Musical</td>
+                           <td>128 minutos</td>
+                        <td>2016</td>
+                           <td>Media</td>
+                      </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+           </section>
+            <section>
+            <h2>Lugares en Puebla para Comer</h2>
+             <p>Si estás buscando dónde comer bien y de manera accesible, Puebla tiene muchas opciones para estudiantes universitarios. Desde antojitos tradicionales hasta lugares de comida rápida, aquí te dejamos una lista de lugares populares entre los estudiantes en la ciudad.</p>
+             <table border="1" id="tabla4">
+                 <thead>
+                        <tr>
+                         <th>Nombre del Lugar</th>
+                         <th>Tipo de Comida</th>
+                         <th>Precio Promedio</th>
+                         <th>Ubicación</th>
+                          <th>Horario</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>La Cemita de Puebla</td>
+                         <td>Antojitos</td>
+                         <td>$50 MXN</td>
+                         <td>Centro Histórico</td>
+                         <td>12:00 PM - 9:00 PM</td>
+                        </tr>
+                     <tr>
+                            <td>El Mural de los Poblanos</td>
+                            <td>Comida Típica</td>
+                            <td>$150 MXN</td>
+                         <td>Centro Histórico</td>
+                            <td>1:00 PM - 11:00 PM</td>
+                     </tr>
+                        <tr>
+                          <td>La Casa del Molote</td>
+                          <td>Comida Callejera</td>
+                          <td>$40 MXN</td>
+                          <td>Zona BUAP</td>
+                          <td>9:00 AM - 8:00 PM</td>
+                        </tr>
+                     <tr>
+                           <td>Pizza Nostra</td>
+                           <td>Comida Italiana</td>
+                           <td>$120 MXN</td>
+                           <td>Angelópolis</td>
+                           <td>12:00 PM - 10:00 PM</td>
+                     </tr>
+                      <tr>
+                           <td>Tacos Arabe Tony</td>
+                           <td>Tacos</td>
+                           <td>$60 MXN</td>
+                           <td>La Paz</td>
+                            <td>11:00 AM - 10:00 PM</td>
+                     </tr>
+                  </tbody>
+                  <tfoot></tfoot>
+             </table>
+            </section>
+            <section style="overflow-x: auto">
+            <h2>Programas de Televisión Recomendados para Estudiantes Universitarios</h2>
+            <p>Con tantas plataformas de streaming, a veces es difícil decidir qué ver. Aquí tienes algunas series y programas recomendados para desconectarte de los estudios y disfrutar de un buen rato.</p>
+            <table border="1" id="tabla5">
+                <thead>
+                 <tr>
+                     <th>Título</th>
+                     <th>Género</th>
+                     <th>Plataforma</th>
+                     <th>Duración (por episodio)</th>
+                     <th>Temporadas</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                       <td>Stranger Things</td>
+                       <td>Ciencia Ficción</td>
+                       <td>Netflix</td>
+                       <td>50 minutos</td>
+                       <td>4</td>
+                  </tr>
+                  <tr>
+                     <td>Breaking Bad</td>
+                     <td>Drama</td>
+                     <td>Netflix</td>
+                     <td>47 minutos</td>
+                     <td>5</td>
+                 </tr>
+                 <tr>
+                        <td>Brooklyn Nine-Nine</td>
+                        <td>Comedia</td>
+                        <td>Peacock</td>
+                        <td>22 minutos</td>
+                        <td>8</td>
+                 </tr>
+                 <tr>
+                      <td>The Office</td>
+                      <td>Comedia</td>
+                      <td>Amazon Prime</td>
+                      <td>22 minutos</td>
+                      <td>9</td>
+                 </tr>
+                 <tr>
+                     <td>Dark</td>
+                     <td>Misterio</td>
+                     <td>Netflix</td>
+                     <td>55 minutos</td>
+                      <td>3</td>
+                 </tr>
+             </tbody>
+             <tfoot></tfoot>
+            </table>
+        </section>
+        </main>
+        <footer>
+            <h5> Elaborado por Peralta Garcia Dora Guadalupe</h5>
+        </footer>
+    </body>
+</html>

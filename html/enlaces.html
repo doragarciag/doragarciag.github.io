@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <style type="text/css">
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            header,nav,main,footer{
+                width:960px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+                color: #EEEEEE
+            }
+            header{
+                background-color: #201E43;
+                height: 150px;
+            }
+            nav{
+                height: 50px;
+                background-color: #134B70;
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height: auto;
+                background-color: #EEEEEE;
+            }
+            main nav {
+                width: 600px
+            }
+            footer{
+                height: 50px;
+                background-color: #201E43;
+            }
+            section{
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+                background-color: #508C9B;
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            h1{
+                text-align: center;
+                padding: 40px;
+            }
+            h5{
+                text-align: center;
+                padding: 25px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            p a:visited{
+                color: #201E43;
+            }
+            p a:link{
+                color: #EEEEEE;
+                font-weight: bolder;
+            }
+            p a:active{
+                color: orange; 
+            }
+            ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #201E43;
+            }
+            nav ul a:link, ul a:active{
+                color: #201e43;
+            }
+            ul a:hover{
+                color: #508c9b;
+                font-weight: bold;
+            }
+            nav ul li a:link, nav ul li a:visited {
+                color:#508c9b;
+                font-weight: bold;
+            }
+            /*nav ul li a:hover{
+                color: #201E43;
+            }*/
+            nav li:hover, nav li a:hover {
+                background-color: #201E43;
+                color:#EEEEEE;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Conoceme</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Formatos</a></li>
+                <li><a href="listas.html"> Listas</a></li>
+                <li><a href="enlaces.html"> Enlaces</a></li>
+                <li><a href="tablas.html"> Tablas</a></li>
+                <li><a href="imagenes.html"> Imagenes</a></li>
+                <li><a href="audio.html"> Audio</a></li>
+                <li><a href="videos.html"}> Video</a></li>
+                <li><a href="formularios.html"> Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="enlace_externos">Mi carrera</h2>
+                <p>Estudiar en la <a href="http://www.buap.mx">BUAP</a> ha sido una de las mejores decisiones que he tomado. A mis 21 años, estoy cursando la carrera de Diseño Gráfico y, aunque a veces el camino ha sido difícil, he aprendido muchísimo. Lo que más me gusta de mi carrera es poder expresar mis ideas visualmente, y siempre busco inspiración en diferentes lugares. Cuando necesito un poco de creatividad extra, una de mis herramientas favoritas es <a href="https://mx.pinterest.com/" target="_blank">Pinterest</a>, donde encuentro ideas para mis proyectos, desde tipografías hasta paletas de colores.</p>
+                <p>Como diseñadora, a veces me encuentro con la necesidad de materiales específicos que no siempre son fáciles de conseguir en tiendas locales. Cuando eso sucede, recurro a <a href="http://mercadolibre.com">Mercado Libre</a>, donde puedo encontrar todo lo que necesito para mis trabajos y proyectos. Es una opción súper práctica que me ha salvado en más de una ocasión, ya que puedo adquirir materiales sin salir de casa y con bastante rapidez.</p>
+
+            </section>
+            <section>
+                <h2 id="enlace_internos">Más sobre mi :D</h2>
+                <p>Si te gustaría saber un poco más sobre mí, te invito a que visites esta sección con algunos <a href="../html/listas.html" target="_blank">Datos sobre mí</a>, donde comparto mis hobbies, los países que me encantaría visitar y mis películas favoritas. Creo que es una buena forma de conocernos un poco mejor, ya que me gusta hablar de lo que me inspira y motiva tanto en lo personal como en mi carrera de diseño gráfico.</p>
+                <p>Aunque no lo considero uno de mis hobbies principales, siempre me ha gustado hacer códigos HTML. De hecho, ya he trabajado con ellos antes, y aquí te dejo un ejemplo que puedes ver o descargar: <a href="../medios/iconos/codigohtml.pdf" download>código de los datos</a>. Me resulta bastante divertido y me permite explorar una faceta más técnica de mi creatividad, lo cual disfruto bastante.</p>
+
+            </section>
+            <section>
+                <h2 id="enlace_pagina">Más por ver</h2>
+                <p>En las siguientes secciones de esta página web, podrás conocer más sobre mí, mis gustos y algunas de mis recomendaciones. Por ejemplo, en la sección de <a href="../html/audio.html" target="_blank">audios</a>, comparto algunas de las canciones y artistas que me inspiran y me acompañan mientras trabajo en mis proyectos de diseño. Me encanta compartir lo que disfruto, ya que siento que es una buena forma de conectar con quienes tienen intereses similares. Espero que estas recomendaciones también puedan inspirarte.</p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#enlace_externos"> Mi carrera</a></li>
+                    <li><a href="#enlace_internos"> Más sobre mi :D</a></li>
+                    <li><a href="#enlace_pagina"> Más por ver</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5> Elaborado por Peralta Garcia Dora Guadalupe</h5>
+        </footer>
+    </body>
+</html>

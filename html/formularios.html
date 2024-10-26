@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title> Formularios</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        <style type="text/css">
+            header, nav, main, footer {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Formularios</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Formatos</a></li>
+                <li><a href="listas.html"> Listas</a></li>
+                <li><a href="enlaces.html"> Enlaces</a></li>
+                <li><a href="tablas.html"> Tablas</a></li>
+                <li><a href="imagenes.html"> Imagenes</a></li>
+                <li><a href="audio.html"> Audio</a></li>
+                <li><a href="videos.html"}> Video</a></li>
+                <li><a href="formularios.html"> Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+			<section>
+			<h2>Formulario de ingreso</h2>
+			  <p>Por favor, ingresa tus credenciales para acceder a tu cuenta. Completa los campos de usuario y contraseña para continuar. Si tienes algún problema o has olvidado tu contraseña, no dudes en ponerte en contacto con el soporte técnico.</p>
+				<form action="" method="get" name="form1" id="form1">
+				  <label for="password">			      </label>
+				  <label for="usuario">Usuario:</label>
+				  <label for="password">
+			        <input name="usuario" type="text" id="usuario" maxlength="30">
+			      &nbsp;Contraseña:</label>
+                  <input name="password" type="password" id="password" maxlength="6">
+                  <input type="submit" name="submit" id="submit" value="Enviar">
+                  
+				  
+	          </form>
+				<p>&nbsp;</p>
+            </section>
+			<section>
+<h2>Formulario para conocerle</h2>
+				<p>¡Queremos conocerte mejor! Por favor, completa este formulario con algunos datos básicos sobre ti. Además de tu nombre, apellido y edad, cuéntanos desde qué país nos visitas y cuál es tu género musical favorito. Tu información nos ayudará a personalizar tu experiencia y brindarte contenidos que te encanten.</p>
+			  <form action="" method="post" name="form2" id="form2">
+<label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+<label for="apellidos">Apellidos:</label>
+<input type="text" name="apellidos" id="apellidos">
+<label for="edad">Edad:</label>
+<input name="edad" type="number" id="edad" max="100" min="18">
+<label for="select">Pais:</label>
+<select name="select" id="select">
+  <option value="argentina">Argentina</option>
+  <option value="bolivia">Bolivia</option>
+  <option value="colombia">Colombia</option>
+  <option value="mexico">México</option>
+  <option value="brasil">Brasil</option>
+  <option value="corea">Corea</option>
+  <option value="estados unidos">Estados Unimos</option>
+</select>
+<label for="textfield">Genero&nbsp;</label>
+<p>
+  <label>
+    <input type="radio" name="Genero" value="femenino" id="Genero_0">
+    Femenino</label>
+<label>
+  <input type="radio" name="Genero" value="masculino" id="Genero_1">
+    Masculino</label>
+<label>
+  <input type="radio" name="Genero" value="no binario" id="Genero_2">
+    No binario</label>
+</p>
+<label>Musica favorita:&nbsp;&nbsp;</label>
+<p>
+  <label>
+    <input type="checkbox" name="Musica" value="pop" id="Musica_0">
+    Pop</label>
+<label>
+  <input type="checkbox" name="Musica" value="rock" id="Musica_1">
+    Rock</label>
+<label>
+  <input type="checkbox" name="Musica" value="kpop" id="Musica_2">
+    Kpop</label>
+<label>
+  <input type="checkbox" name="Musica" value="jazz" id="Musica_3">
+    Jazz</label>
+<label>
+  <input type="checkbox" name="Musica" value="electronica" id="Musica_4">
+    Electronica</label>
+<label>
+  <input type="checkbox" name="Musica" value="banda" id="Musica_5">
+    Banda</label>
+</p>
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+				  
+		      </form>
+</section>
+			<section>
+			  <h2>¡Bienvenidos a mi formulario de servicios de diseño gráfico!</h2>
+			  <p>Gracias por tu interés en mis servicios como diseñadora gráfica. A lo largo de mi carrera he desarrollado habilidades en fotografía, ilustración digital, diseño de logotipos y procesos gráficos, y me especializo en crear soluciones visuales que se ajusten a las necesidades de mis clientes.</p>
+			  <p>Este formulario está diseñado para conocerte mejor y entender lo que necesitas. Ya sea que busques renovar la imagen de tu marca, desarrollar un sitio web, o cualquier otro proyecto visual, tu información será fundamental para ofrecerte una propuesta personalizada.</p>
+<p>Por favor, completa los campos a continuación. Cada detalle cuenta para que podamos crear juntos algo increíble. ¡Estoy emocionada por comenzar a trabajar contigo!</p>
+<form action="" method="post" name="form3" id="form3">
+  <label for="nombrecliente"><strong>Nombre:</strong></label>
+  <input type="text" name="nombrecliente" id="nombrecliente">
+  <label for="Apellido"><strong>Apellidos</strong>:</label>
+  <input type="text" name="Apellido" id="Apellido">
+  <label for="edad2"><strong>Edad</strong> :</label>
+  <input name="edad2" type="number" id="edad2" max="100" min="18">
+  <label for="select2"><strong>Estado</strong> donde recide:</label>
+  <p>
+    <select name="select2" id="select2" placeholder="(Selecciona tu estado)">
+      <option value="Aguascalientes">Aguascalientes</option>
+      <option value="Baja California">Baja California</option>
+      <option value="Baja California Sur">Baja California Sur</option>
+      <option value="Chiapas">Chiapas</option>
+      <option value="Chihuahua">Chihuahua</option>
+      <option value="Ciudad de México">Ciudad de México</option>
+      <option value="Coahuila">Coahuila</option>
+      <option value="Colima">Colima</option>
+      <option value="Durango">Durango</option>
+      <option value="Estado de México">Estado de México</option>
+      <option value="Guanajuato">Guanajuato</option>
+      <option value="Guerrero">Guerrero</option>
+      <option value="Hidalgo">Hidalgo</option>
+      <option value="Jalisco">Jalisco</option>
+      <option value="Michoacán">Michoacán</option>
+      <option value="Morelos">Morelos</option>
+      <option value="Nayarit">Nayarit</option>
+      <option value="Nuevo León">Nuevo León</option>
+      <option value="Oaxaca">Oaxaca</option>
+      <option value="Puebla">Puebla</option>
+      <option value="Querétaro">Querétaro</option>
+      <option value="San Luis Potosí">San Luis Potosí</option>
+      <option value="Sin Localidad">Sin Localidad</option>
+      <option value="Sinaloa">Sinaloa</option>
+      <option value="Sonora">Sonora</option>
+      <option value="Tabasco">Tabasco</option>
+      <option value="Tamaulipas">Tamaulipas</option>
+      <option value="Tlaxcala">Tlaxcala</option>
+      <option value="Veracruz">Veracruz</option>
+      <option value="Yucatán">Yucatán</option>
+      <option value="Zacatecas">Zacatecas</option>
+    </select>
+	<label for="select2"><strong>Tipo de proyecto:</strong></label>
+    <label id="f1">
+      <input type="radio" name="Tipo de proyecto" value="foto" id="Tipodeproyecto_0">
+      Fotografia</label>
+<label id="f2">
+  <input type="radio" name="Tipo de proyecto" value="marca" id="Tipodeproyecto_1">
+      Diseño de marca</label>
+<label id="f3">
+  <input type="radio" name="Tipo de proyecto" value="web" id="Tipodeproyecto_2">
+      Diseño web</label>
+<label id="f4">
+  <input type="radio" name="Tipo de proyecto" value="editorial" id="Tipodeproyecto_3">
+      Editorial</label>
+<label id="f5">
+  <input type="radio" name="Tipo de proyecto" value="ilustracion" id="Tipodeproyecto_4">
+      Ilustración</label>
+<label id="f6">
+  <input type="radio" name="Tipo de proyecto" value="gráficos" id="Tipodeproyecto_5">
+      Procesos gráficos</label>
+<label id="f7">
+  <input type="radio" name="Tipo de proyecto" value="completo" id="Tipodeproyecto_6">
+      Proyecto completo</label>
+<label for="email">Correo electrónico de contacto:</label>
+<input type="email" name="email" id="email">
+<label for="tel">Numero telefonico de contacto:</label>
+<input type="tel" name="tel" id="tel" placeholder="Ejemplo: +52 222-127-7331">
+<label for="url">Url de pagina web o red social (opcional):</label>
+<input type="url" name="url" id="url">
+<label for="date">Fecha de solicitus de contacto:</label>
+<input type="date" name="date" id="date">
+<label for="month">Mes en el que desea el trabajo:</label>
+<input type="month" name="month" id="month">
+<label for="fileField">Información de la empresa o trabajo:</label>
+<input type="file" name="fileField" id="fileField">
+<input type="submit" name="submit3" id="submit3" value="Enviar">
+<input type="reset" name="reset" id="reset" value="Restablecer">
+<br>
+  </p>
+</form>
+		    </section>
+</main>
+        <footer>
+          <h5> Elaborado por Peralta Garcia Dora Guadalupe</h5>
+    </footer>
+    </body>
+</html>
